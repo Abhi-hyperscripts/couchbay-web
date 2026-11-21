@@ -1,0 +1,134 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "FCLXK3PAFW.com.cupcouch.app"
+        ],
+        "components": [
+          {
+            "/": "/checkout",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/orders",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/purchased",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/advertise",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/admin",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/admin/*",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/staff",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/staff/*",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/install",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/probe",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/auth/*",
+            "exclude": true,
+            "comment": "stays on the website"
+          },
+          {
+            "/": "/"
+          },
+          {
+            "/": "/tube"
+          },
+          {
+            "/": "/tube/*"
+          },
+          {
+            "/": "/bites"
+          },
+          {
+            "/": "/title/*"
+          },
+          {
+            "/": "/live"
+          },
+          {
+            "/": "/live/*"
+          },
+          {
+            "/": "/concert/*"
+          },
+          {
+            "/": "/concerts"
+          },
+          {
+            "/": "/playlist/*"
+          },
+          {
+            "/": "/c/*"
+          },
+          {
+            "/": "/u/*"
+          },
+          {
+            "/": "/episodes/*"
+          },
+          {
+            "/": "/player/*"
+          },
+          {
+            "/": "/story/*"
+          },
+          {
+            "/": "/course/*"
+          },
+          {
+            "/": "/lessons/*"
+          },
+          {
+            "/": "/movies"
+          },
+          {
+            "/": "/series"
+          },
+          {
+            "/": "/videos"
+          },
+          {
+            "/": "/group/join/*"
+          },
+          {
+            "/": "/v/*"
+          }
+        ]
+      }
+    ]
+  }
+}
