@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <!-- The installable web app (PWA): manifest, icons and the colours the phone uses for its frame -->
+    <!-- What a shared link shows (test:share-card); the picture comes from packages/theme/brand/make-share-card.mjs -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#080808" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <!-- iPhone and iPad: Add to Home Screen opens it full screen, with this icon and name -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="CupCouch" />
+    <!-- startup pictures (make-brand-assets.py) -->
+    <link rel="apple-touch-startup-image" href="/splash/iphone-440x956@3x-portrait.png" media="screen and (device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-440x956@3x-landscape.png" media="screen and (device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-430x932@3x-portrait.png" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-430x932@3x-landscape.png" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-428x926@3x-portrait.png" media="screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-428x926@3x-landscape.png" media="screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-414x896@3x-portrait.png" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-414x896@3x-landscape.png" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-414x896@2x-portrait.png" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-414x896@2x-landscape.png" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-414x736@3x-portrait.png" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-414x736@3x-landscape.png" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-402x874@3x-portrait.png" media="screen and (device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-402x874@3x-landscape.png" media="screen and (device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-393x852@3x-portrait.png" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-393x852@3x-landscape.png" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-390x844@3x-portrait.png" media="screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-390x844@3x-landscape.png" media="screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-375x812@3x-portrait.png" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-375x812@3x-landscape.png" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-375x667@2x-portrait.png" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-375x667@2x-landscape.png" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-320x568@2x-portrait.png" media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-320x568@2x-landscape.png" media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
+    <!-- /startup pictures -->
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+        /* the page colour from the first frame, so an installed app never flashes white */
+        background-color: #080808;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <link rel="icon" href="/favicon.ico"/>    <title>Kennedy Tours the Space Centres, 1962 | CupCouch</title>
+    <meta name="description" content="President Kennedy visits Huntsville, Cape Canaveral and Houston in September 1962, looks at Mercury and Gemini capsules and gives his speech at Rice University calling for a lead in space. A short fashion item closes the reel. Source: https://archive.org/details/1962-09-13_Kennedy_Tour (public…" />
+    <meta name="cc:page-title" content="Kennedy Tours the Space Centres, 1962" />
+    <link rel="canonical" href="https://cupcouch.com/tube/10410f08-7753-4e03-b9e7-05ef95062a1a" />
+    <meta property="og:type" content="video.other" />
+    <meta property="og:site_name" content="CupCouch" />
+    <meta property="og:title" content="Kennedy Tours the Space Centres, 1962 | CupCouch" />
+    <meta property="og:description" content="President Kennedy visits Huntsville, Cape Canaveral and Houston in September 1962, looks at Mercury and Gemini capsules and gives his speech at Rice University calling for a lead in space. A short fashion item closes the reel. Source: https://archive.org/details/1962-09-13_Kennedy_Tour (public…" />
+    <meta property="og:url" content="https://cupcouch.com/tube/10410f08-7753-4e03-b9e7-05ef95062a1a" />
+    <meta property="og:image" content="https://api.cupcouch.com/svc/content/api/tube/thumb/d379920381a94426833333074badbdad/10410f0877534e03b9e705ef95062a1a?v=8df3e538b893c9e-9ada2755" />
+    <meta name="twitter:image" content="https://api.cupcouch.com/svc/content/api/tube/thumb/d379920381a94426833333074badbdad/10410f0877534e03b9e705ef95062a1a?v=8df3e538b893c9e-9ada2755" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kennedy Tours the Space Centres, 1962 | CupCouch" />
+    <meta name="twitter:description" content="President Kennedy visits Huntsville, Cape Canaveral and Houston in September 1962, looks at Mercury and Gemini capsules and gives his speech at Rice University calling for a lead in space. A short fashion item closes the reel. Source: https://archive.org/details/1962-09-13_Kennedy_Tour (public…" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Kennedy Tours the Space Centres, 1962","url":"https://cupcouch.com/tube/10410f08-7753-4e03-b9e7-05ef95062a1a","description":"President Kennedy visits Huntsville, Cape Canaveral and Houston in September 1962, looks at Mercury and Gemini capsules and gives his speech at Rice University calling for a lead in space. A short fashion item closes the reel. Source: https://archive.org/details/1962-09-13_Kennedy_Tour (public domain).","thumbnailUrl":"https://api.cupcouch.com/svc/content/api/tube/thumb/d379920381a94426833333074badbdad/10410f0877534e03b9e705ef95062a1a?v=8df3e538b893c9e-9ada2755","uploadDate":"2026-11-09T11:21:05.41707Z","duration":"PT3M45S","interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"WatchAction"},"userInteractionCount":1},"author":{"@type":"Person","name":"CupCouch History","url":"https://cupcouch.com/c/cupcouch_history"}}</script>
+  </head>
+
+  <body>
+    <noscript><h1>Kennedy Tours the Space Centres, 1962</h1><p>President Kennedy visits Huntsville, Cape Canaveral and Houston in September 1962, looks at Mercury and Gemini capsules and gives his speech at Rice University calling for a lead in space. A short fashion item closes the reel. Source: https://archive.org/details/1962-09-13_Kennedy_Tour (public…</p></noscript>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/_expo/static/js/web/__expo-metro-runtime-1f8f5d3ca6b7f58204d51e14506d73fb.js" defer></script><script src="/_expo/static/js/web/__common-dad2a985d2290433d242511332a24673.js" defer></script><script src="/_expo/static/js/web/entry-50b0dd04e3a92467e98baf3b71ce2e75.js" defer></script>
+</body>
+</html>

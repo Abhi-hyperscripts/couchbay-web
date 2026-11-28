@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cupcouch.app",
+      "sha256_cert_fingerprints": [
+        "0F:04:CF:97:AC:B9:40:5B:06:8C:63:18:63:38:C7:FD:FF:1C:25:18:C6:45:D9:A1:6A:38:3A:0B:C2:0E:4C:A3",
+        "55:5D:CB:F3:4A:E2:86:11:A9:B6:C6:9E:3F:6B:F4:FC:95:F0:1F:91:CA:88:0E:DD:08:6F:15:5B:4A:9C:28:50"
+      ]
+    }
+  }
+]
